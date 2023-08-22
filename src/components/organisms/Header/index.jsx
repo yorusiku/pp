@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ImageToMainPage from "../../atoms/PapagymImage";
 import SourceToTargetLan from "../../atoms/SourceToTargetLanguage";
-import SourceBoxAndBtn from "../../Molecules/SourceBoxAndBtn";
+import SourceBoxAndBtn from "../../molecules/SourceBoxAndButton";
 
 export default function Header() {
   return (
