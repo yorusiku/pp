@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ImageToMainPage from "../Atoms/PapaGymImage";
-import SourceToTargetLan from "../Atoms/SourceToTargetLan";
-import TargetLanguageBox from "../Atoms/TargetLanguageBox";
-import SourceLanguageBox from "../Atoms/SourceLanguageBox";
+import ImageToMainPage from "../../atoms/PapagymImage";
+import SourceToTargetLan from "../../atoms/SourceToTargetLanguage";
+import SourceBoxAndBtn from "../../Molecules/SourceBoxAndBtn";
 
 export default function Header() {
   return (
@@ -19,8 +18,7 @@ export default function Header() {
         <div>header</div>
       </div>
       <div className="sourceAndTarget">
-        <SourceLanguageBox />
-        <TargetLanguageBox />
+        <SourceBoxAndBtn />
       </div>
     </>
   );

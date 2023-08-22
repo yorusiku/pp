@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilState } from "recoil";
-import { languageCheckState } from "../../recoil/atom/languageCheck";
+import { languageCheckState } from "../../../recoil/atom/languageCheck";
 
 // isLanKo는 boolean으로 현재언어상태가 한국어가맞는지체크
 
